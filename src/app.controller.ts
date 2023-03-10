@@ -12,6 +12,6 @@ export class AppController {
 
   @Get('hello/foo')
   getHello2(): { [key: string]: string } {
-    return this.appService.getHello();
+    return this.appService.getHello2();
   }
 }
